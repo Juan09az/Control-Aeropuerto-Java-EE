@@ -1,0 +1,243 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/10/2020, 02:50:51 PM
+    Author     : cesit
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-family: 'Rubik', serif;
+    font-size: 17px;
+
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+body{
+
+    background-color: #fff;
+    margin: 0px;
+}
+
+
+nav{
+    position: relative !important;
+    margin: auto;
+    background-color: #1956BB !important;
+    padding-top:30px!important;
+    padding-bottom: 30px!important;
+    font-size: 14pt;
+}
+
+.seccion{
+    background: #B8D1FF;
+}
+
+section{
+    margin: 30px;
+}
+
+#sectRegisto{
+    align-content: center;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectModificarRe{
+     align-content: center;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    height: 63vh;
+}
+
+#iniciarSesion{
+
+}
+
+.dropdown{
+    position: absolute;
+    right: 55px;
+}
+
+button.btn.btn-secondary.dropdown-toggle{
+    background: transparent;
+}
+
+.dropdown-menu{
+    background: #1956BB;
+    border-color: #fff;
+}
+
+.dropdown-item a:hover{
+    color: #000;
+}
+
+#formRegistro input{
+     border-radius: .12rem;
+     background: transparent;
+}
+
+#formRegistro input[type="submit"],input[type="button"]{
+     border-radius: .12rem !important;
+     background: #1956BB !important;
+     color: #fff;
+     margin-bottom: 15px; 
+}
+
+#div-botones{
+    margin-left: 55%;
+}
+
+.g-recaptcha{
+    margin-left: 15%;
+}
+
+.btn-reservar{
+    background: #1956BB;
+    border-radius: .30rem;
+    color: #fff;
+}
+
+#navDropdownMenu{
+    left: 10px !important;  
+    right: auto;
+}
+
+#navDropdownOpc{
+    list-style: none;
+    right: 10px !important;  
+    left: auto;
+}
+
+nav a{
+    color: #fff ;
+}
+
+a:hover{
+    color: #000;
+}
+
+.table{
+    background: #B8D1FF;
+}
+
+.navbar-brand etiqueta{
+    color: #000 !important;
+}
+
+.navbar-brand etiqueta:hover{
+    color: #000 !important;
+}
+
+#etiLogin{
+    position: absolute;
+    right: 10px;
+}
+
+article select{ 
+    margin: 5px 20px;
+}
+
+
+
+.container-fluid{
+    alignment-adjust: central;
+    display: block;
+}
+form{
+    padding-bottom: 40px;
+}
+
+#formRegistro{
+     background: #B8D1FF;
+     margin-bottom: 20px;
+     padding-bottom: 20px;
+     padding-top: 40px;
+}
+
+
+.info-pasajeros{
+    background: #B8D1FF;
+}
+
+
+.input-text{
+    border: none ;
+    outline: none ;
+    border-bottom: 1px solid #000;
+    background: transparent;
+}
+
+.form-row{
+    text-align: left;
+}
+.table-responsive-md{
+    padding-bottom: 10px;
+}
+
+select{
+    background: transparent;
+    margin-left: 20px;
+    border-radius: .25rem;
+}
+
+th,td{
+    padding: 20px 40px;
+}
+
+.form{
+    position: relative;
+    display: block;
+    margin: 40px auto;
+
+}
+
+#formPago{
+    background :#B8D1FF; 
+}
+
+label{
+    margin: 5px 20px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+
+footer{
+    color: #fff;
+    text-align: center;
+    background-color: #1956BB;
+    align-items: center;
+    align-content: center;
+    bottom: 0px;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer div{
+
+
+}
+
+.copyright{
+    display: block;
+}
+

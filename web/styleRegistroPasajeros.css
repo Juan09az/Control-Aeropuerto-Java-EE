@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/10/2020, 06:37:55 PM
+    Author     : cesit
+*/
+body{
+     background-color: #EAF3F5  ;
+}
+
+nav{
+    position: relative;
+    margin: 30px auto;
+    background-color: lightsteelblue;
+    padding: 30px;
+}
+
+nav a{
+
+}
+
+#etiLogin{
+    position: absolute;
+    right: 10px;
+}
+
+article{
+    margin: auto 50px;
+}
+
+article select{ 
+    margin: 5px 20px;
+}
+
+section{
+
+}
+
+th,td{
+    padding: 20px 40px;
+}
+
+form{
+    position: relative;
+    display: inline-grid;
+}
+
+label{
+    margin: 5px 10px;
+}
+
+input{
+    margin-left: 10px;
+}
+
+footer{
+    position: relative;
+    display: block;
+    background-color: lightsteelblue;
+}
+
+footer p{
+    position: absolute;
+    display: inline-grid;
+    direction: rtl;
+    right: 0;
+
+}
+
+footer div{
+    padding: auto 20px;
+    margin-left: 20px;
+    display: table-cell;
+    width: 100px;
+}
